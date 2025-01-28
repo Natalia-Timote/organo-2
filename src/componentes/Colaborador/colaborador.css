@@ -43,3 +43,8 @@
     right: -10px;
     top: -10px;
 }
+
+.colaborador .favoritar {
+    margin-top: 24px;
+    cursor: pointer;
+}
