@@ -1,6 +1,6 @@
 ## 🏢 Organo
 
-O **Organo** é uma aplicação desenvolvida em **React**, criada para **organizar os times de uma empresa**, permitindo **cadastrar colaboradores com nome, cargo, imagem e time**. Nesta continuação, o projeto foi expandido durante o curso da Alura para aprofundar conceitos de **funcionamento interno dos componentes, explorando props, states, one-way data binding e Virtual DOM**.
+O **Organo** é uma aplicação desenvolvida em **React**, criada para **organizar os times de uma empresa**, permitindo **criar times** e **cadastrar colaboradores com nome, cargo, imagem e time**. Nesta continuação, o projeto foi expandido durante o curso da Alura para aprofundar conceitos de **funcionamento interno dos componentes, explorando props, states, one-way data binding e Virtual DOM**.
 
 ![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
