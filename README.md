@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## 🏢 Organo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Organo** é uma aplicação desenvolvida em **React**, criada para **organizar os times de uma empresa**, permitindo **cadastrar colaboradores com nome, cargo, imagem e time**. Nesta continuação, o projeto foi expandido durante o curso da Alura para aprofundar conceitos de **funcionamento interno dos componentes, explorando props, states, one-way data binding e Virtual DOM**.
 
-## Available Scripts
+![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
-In the project directory, you can run:
+<hr>
 
-### `npm start`
+## 🚀 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido durante o curso da Alura:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* "React: como os componentes funcionam"
+  
+O foco foi compreender como o **React enxerga os componentes, seus props e states**, além de praticar **refatorações, criação de novas funcionalidades** e analisar como o **one-way data binding e o Virtual DOM** influenciam o funcionamento da aplicação.
 
-### `npm test`
+## 📚 Objetivos do Curso
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Aprender a clonar um projeto existente no GitHub, instalar as dependências necessárias e rodar o código;
+* Entender o que são **dependências** e como instalar novas dependências;
+* Comparar como o React vê um **componente**, assim como seus **props e states**;
+* Fazer mudanças no código, como criação de **novas features e refatoração de código existente**;
+* Saber o que é **one-way data binding**, e o que isto tem a ver com **VirtualDOM (e por que o React é feito desta forma)**.
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Visualização do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uma prévia das principais funcionalidades do **Organo**:
 
-### `npm run eject`
+**🌐 Acesse o Projeto Online**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O projeto está disponível para visualização na **Vercel**. Clique no link abaixo para acessar:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://organo-ivory-eight.vercel.app/" target="_blank">![Static Badge](https://img.shields.io/badge/Vercel-project?style=for-the-badge&color=A91079)</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**📌 Banner da Aplicação**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Área inicial que exibe o banner principal do Organo, trazendo destaque visual e identidade da aplicação.
 
-## Learn More
+<img src="./public/imagens/organo-home.png" alt="Banner do Organo" width="600"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**📨 Página do Projeto**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Página onde os colaboradores e times podem ser cadastrados, informando informações principais sobre eles, sendo exibidos de forma organizada por grupo.
 
-### Code Splitting
+<img src="./public/imagens/organo-form.png" alt="Página do Organo" width="600"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**👥 Times da Empresa**
 
-### Analyzing the Bundle Size
+Seção onde os colaboradores são exibidos de forma organizada por time, facilitando a visualização da equipe e o entendimento da estrutura da empresa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="public/imagens/organo-teams.png" alt="Times do Organo" width="600"/>
